@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity5">
+
+
+    <com.airbnb.lottie.LottieAnimationView
+        android:id="@+id/lottie5"
+        android:layout_width="800dp"
+        android:layout_height="1000dp"
+        android:layout_centerInParent="true"
+
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.39"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.46"
+        app:lottie_autoPlay="true"
+        app:lottie_loop="true"
+        app:lottie_rawRes="@raw/catstudy"
+        tools:ignore="MissingConstraints"></com.airbnb.lottie.LottieAnimationView>
+
+    <ImageView
+        android:id="@+id/pp5"
+        android:layout_width="56dp"
+        android:layout_height="46dp"
+        android:layout_marginStart="96dp"
+        android:layout_marginTop="480dp"
+        android:contentDescription="@string/todo22"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/ic_baseline_play2_circle_24" />
+
+    <TextView
+        android:id="@+id/textView16"
+        android:layout_width="147dp"
+        android:layout_height="46dp"
+        android:layout_marginTop="488dp"
+        android:fontFamily="@font/aclonica"
+        android:text="@string/writing"
+        android:textColor="#FFFFFF"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.245"
+        app:layout_constraintStart_toEndOf="@+id/pp1"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView15"
+        android:layout_width="119dp"
+        android:layout_height="36dp"
+        android:layout_marginTop="404dp"
+        android:fontFamily="@font/aclonica"
+        android:text="@string/rain"
+        android:textColor="#FAFAFA"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.205"
+        app:layout_constraintStart_toEndOf="@+id/pp1"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/pp4"
+        android:layout_width="54dp"
+        android:layout_height="44dp"
+        android:layout_marginStart="96dp"
+        android:layout_marginTop="396dp"
+        android:contentDescription="@string/todo11"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/ic_baseline_play2_circle_24" />
+
+    <TextView
+        android:id="@+id/textView14"
+        android:layout_width="115dp"
+        android:layout_height="38dp"
+        android:layout_marginTop="316dp"
+        android:fontFamily="@font/aclonica"
+        android:text="@string/guitar"
+        android:textColor="#F8F8F8"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.193"
+        app:layout_constraintStart_toEndOf="@+id/pp1"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/pp3"
+        android:layout_width="54dp"
+        android:layout_height="44dp"
+        android:layout_marginStart="92dp"
+        android:layout_marginTop="312dp"
+        android:contentDescription="@string/todo33"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/ic_baseline_play2_circle_24" />
+
+    <TextView
+        android:id="@+id/textView13"
+        android:layout_width="118dp"
+        android:layout_height="38dp"
+        android:layout_marginTop="232dp"
+        android:fontFamily="@font/aclonica"
+        android:text="@string/music_2"
+        android:textColor="#FDFDFD"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.204"
+        app:layout_constraintStart_toEndOf="@+id/pp1"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/pp2"
+        android:layout_width="54dp"
+        android:layout_height="44dp"
+        android:layout_marginStart="92dp"
+        android:layout_marginTop="228dp"
+        android:contentDescription="@string/todo44"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/ic_baseline_play2_circle_24" />
+
+    <ImageView
+        android:id="@+id/pp1"
+        android:layout_width="54dp"
+        android:layout_height="44dp"
+        android:layout_marginStart="92dp"
+        android:layout_marginTop="140dp"
+        android:contentDescription="@string/todo222"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/ic_baseline_play2_circle_24" />
+
+    <TextView
+        android:id="@+id/textView7"
+        android:layout_width="119dp"
+        android:layout_height="47dp"
+        android:layout_marginTop="148dp"
+        android:fontFamily="@font/aclonica"
+        android:text="@string/music_1"
+        android:textColor="#FFFFFF"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.198"
+        app:layout_constraintStart_toEndOf="@+id/pp1"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
