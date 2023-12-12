@@ -1,12 +1,11 @@
 package com.example.stressbuster;
 
-import androidx.appcompat.app.AppCompatActivity;
-
 import android.annotation.SuppressLint;
 import android.content.Intent;
 import android.os.Bundle;
-import android.view.View;
 import android.widget.ImageView;
+
+import androidx.appcompat.app.AppCompatActivity;
 
 public class MainActivity2 extends AppCompatActivity {
 ImageView header;
@@ -26,39 +25,26 @@ ImageView study;
         rain=findViewById(R.id.rain);
         study=findViewById(R.id.study);
 
-        summer.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                String key="one";
-                Intent i1=new Intent(getApplicationContext(),MainActivity.class);
+        summer.setOnClickListener(view -> {
+            Intent i1=new Intent(getApplicationContext(),MainActivity.class);
 
-                startActivity(i1);
-            }
+            startActivity(i1);
         });
-        mountain.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
+        mountain.setOnClickListener(view -> {
 
-                String key="two";Intent i2=new Intent(getApplicationContext(),MainActivity3.class);
+            Intent i2=new Intent(getApplicationContext(),MainActivity3.class);
 
-                startActivity(i2);
-            }
+            startActivity(i2);
         });
-        rain.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                String key="three";Intent i3=new Intent(getApplicationContext(),MainActivity4.class);
+        rain.setOnClickListener(view -> {
+            Intent i3=new Intent(getApplicationContext(),MainActivity4.class);
 
-                startActivity(i3);
-            }
+            startActivity(i3);
         });
-        study.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                String key="four";Intent i4=new Intent(getApplicationContext(),MainActivity5.class);
+        study.setOnClickListener(view -> {
+            Intent i4=new Intent(getApplicationContext(),MainActivity5.class);
 
-                startActivity(i4);
-            }
+            startActivity(i4);
         });
 
     }

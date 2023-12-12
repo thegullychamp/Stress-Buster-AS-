@@ -10,6 +10,7 @@ import android.widget.TextView;
 
 import com.airbnb.lottie.LottieAnimationView;
 
+@SuppressLint("CustomSplashScreen")
 public class SplashScreen extends AppCompatActivity {
 TextView textView;
 LottieAnimationView lottie;
@@ -23,13 +24,10 @@ LottieAnimationView lottie;
         lottie=findViewById(R.id.lots);
 
 
-        new Handler().postDelayed(new Runnable() {
-            @Override
-            public void run() {
-                Intent i=new Intent(getApplicationContext(),MainActivity2.class);
-                startActivity(i);
-                finish();
-            }
+        new Handler().postDelayed(() -> {
+            Intent i=new Intent(getApplicationContext(),MainActivity2.class);
+            startActivity(i);
+            finish();
         },5000);
     }
 }

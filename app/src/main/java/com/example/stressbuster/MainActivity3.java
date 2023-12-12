@@ -1,21 +1,16 @@
 package com.example.stressbuster;
 
-import androidx.appcompat.app.AppCompatActivity;
-
 import android.annotation.SuppressLint;
 import android.media.MediaPlayer;
 import android.os.Bundle;
-import android.view.View;
 import android.widget.ImageView;
 import android.widget.TextView;
 
-import com.airbnb.lottie.LottieAnimationView;
+import androidx.appcompat.app.AppCompatActivity;
 
 public class MainActivity3 extends AppCompatActivity {
-    LottieAnimationView loter;
-    LottieAnimationView loter2;
 
-TextView textView2;
+    TextView textView2;
 ImageView bigmount;
     TextView textView3;
     TextView textView4;
@@ -46,73 +41,58 @@ ImageView bigmount;
         textView5=findViewById(R.id.textView5);
         textView6=findViewById(R.id.textView6);
         mediaPlayer= MediaPlayer.create(this,R.raw.insects);
-        plays1.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                if (mediaPlayer.isPlaying()) {
-                    plays1.setImageResource(R.drawable.ic_baseline_play2_circle_24);
-                    mediaPlayer.pause();
-                } else {
-                    plays1.setImageResource(R.drawable.ic_baseline_pause2_circle_24);
-                    mediaPlayer.start();
-                    mediaPlayer.setLooping(true);
-                }
+        plays1.setOnClickListener(view -> {
+            if (mediaPlayer.isPlaying()) {
+                plays1.setImageResource(R.drawable.ic_baseline_play2_circle_24);
+                mediaPlayer.pause();
+            } else {
+                plays1.setImageResource(R.drawable.ic_baseline_pause2_circle_24);
+                mediaPlayer.start();
+                mediaPlayer.setLooping(true);
             }
         });
         mediaPlayer2=MediaPlayer.create(this,R.raw.rivercalm);
-        plays2.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                if (mediaPlayer2.isPlaying()) {
-                    plays2.setImageResource(R.drawable.ic_baseline_play2_circle_24);
-                    mediaPlayer2.pause();
-                } else {
-                    plays2.setImageResource(R.drawable.ic_baseline_pause2_circle_24);
-                    mediaPlayer2.start();
-                    mediaPlayer2.setLooping(true);
-                }
+        plays2.setOnClickListener(view -> {
+            if (mediaPlayer2.isPlaying()) {
+                plays2.setImageResource(R.drawable.ic_baseline_play2_circle_24);
+                mediaPlayer2.pause();
+            } else {
+                plays2.setImageResource(R.drawable.ic_baseline_pause2_circle_24);
+                mediaPlayer2.start();
+                mediaPlayer2.setLooping(true);
             }
         });
         mediaPlayer3=MediaPlayer.create(this,R.raw.raintent);
-        plays3.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                if (mediaPlayer3.isPlaying()) {
-                    plays3.setImageResource(R.drawable.ic_baseline_play2_circle_24);
-                    mediaPlayer3.pause();
-                } else {
-                    plays3.setImageResource(R.drawable.ic_baseline_pause2_circle_24);
-                    mediaPlayer3.start();
-                    mediaPlayer3.setLooping(true);
-                }
+        plays3.setOnClickListener(view -> {
+            if (mediaPlayer3.isPlaying()) {
+                plays3.setImageResource(R.drawable.ic_baseline_play2_circle_24);
+                mediaPlayer3.pause();
+            } else {
+                plays3.setImageResource(R.drawable.ic_baseline_pause2_circle_24);
+                mediaPlayer3.start();
+                mediaPlayer3.setLooping(true);
             }
         });
         mediaPlayer4=MediaPlayer.create(this,R.raw.camp);
-        plays4.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                if (mediaPlayer4.isPlaying()) {
-                    plays4.setImageResource(R.drawable.ic_baseline_play2_circle_24);
-                    mediaPlayer4.pause();
-                } else {
-                    plays4.setImageResource(R.drawable.ic_baseline_pause2_circle_24);
-                    mediaPlayer4.start();
-                    mediaPlayer4.setLooping(true);
-                }
+        plays4.setOnClickListener(view -> {
+            if (mediaPlayer4.isPlaying()) {
+                plays4.setImageResource(R.drawable.ic_baseline_play2_circle_24);
+                mediaPlayer4.pause();
+            } else {
+                plays4.setImageResource(R.drawable.ic_baseline_pause2_circle_24);
+                mediaPlayer4.start();
+                mediaPlayer4.setLooping(true);
             }
         });
         mediaPlayer5=MediaPlayer.create(this,R.raw.guitar);
-        plays5.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                if (mediaPlayer5.isPlaying()) {
-                    plays5.setImageResource(R.drawable.ic_baseline_play2_circle_24);
-                    mediaPlayer5.pause();
-                } else {
-                    plays5.setImageResource(R.drawable.ic_baseline_pause2_circle_24);
-                    mediaPlayer5.start();
-                    mediaPlayer5.setLooping(true);
-                }
+        plays5.setOnClickListener(view -> {
+            if (mediaPlayer5.isPlaying()) {
+                plays5.setImageResource(R.drawable.ic_baseline_play2_circle_24);
+                mediaPlayer5.pause();
+            } else {
+                plays5.setImageResource(R.drawable.ic_baseline_pause2_circle_24);
+                mediaPlayer5.start();
+                mediaPlayer5.setLooping(true);
             }
         });
 
