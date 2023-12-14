@@ -15,9 +15,13 @@
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintDimensionRatio="9:16"
         app:layout_constraintEnd_toEndOf="@+id/guideline8"
+
+        app:layout_constraintHorizontal_bias="0.526"
         app:layout_constraintStart_toStartOf="@+id/guideline7"
+
         app:layout_constraintTop_toTopOf="parent"
-        app:srcCompat="@drawable/bgcity" />
+        app:layout_constraintVertical_bias="0.0"
+        app:srcCompat="@drawable/studybg" />
 
     <ImageView
         android:id="@+id/summer"
@@ -32,7 +36,7 @@
 
         app:layout_constraintStart_toStartOf="@+id/guideline2"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.876"
+        app:layout_constraintVertical_bias="0.809"
         app:srcCompat="@drawable/summer" />
 
     <ImageView
@@ -40,13 +44,13 @@
         android:layout_width="0dp"
         android:layout_height="0dp"
 
-        android:layout_marginBottom="280dp"
+        android:layout_marginBottom="632dp"
         android:contentDescription="@string/todo5"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintDimensionRatio="1:1"
         app:layout_constraintEnd_toEndOf="@+id/guideline3"
 
-        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintHorizontal_bias="1.0"
         app:layout_constraintStart_toStartOf="@+id/guideline2"
         app:srcCompat="@drawable/rains"
         tools:ignore="ImageContrastCheck" />
@@ -55,7 +59,7 @@
         android:id="@+id/mountain"
         android:layout_width="0dp"
         android:layout_height="0dp"
-        android:layout_marginTop="184dp"
+        android:layout_marginTop="400dp"
         android:contentDescription="@string/todo6"
         app:layout_constraintDimensionRatio="1:1"
         app:layout_constraintEnd_toEndOf="@+id/guideline6"
@@ -76,7 +80,7 @@
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="@+id/guideline5"
         app:layout_constraintTop_toBottomOf="@+id/mountain"
-        app:layout_constraintVertical_bias="0.087"
+        app:layout_constraintVertical_bias="0.135"
         app:srcCompat="@drawable/studying" />
 
     <androidx.constraintlayout.widget.Guideline
