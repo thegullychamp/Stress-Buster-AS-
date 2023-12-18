@@ -8,31 +8,31 @@
 
     <ImageView
         android:id="@+id/header"
-        android:layout_width="0dp"
-        android:layout_height="0dp"
+        android:layout_width="500dp"
+        android:layout_height="796dp"
         android:contentDescription="@string/todo444"
 
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintDimensionRatio="9:16"
         app:layout_constraintEnd_toEndOf="@+id/guideline8"
+        app:layout_constraintHorizontal_bias="0.505"
         app:layout_constraintStart_toStartOf="@+id/guideline7"
         app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.507"
         app:srcCompat="@drawable/bgcity" />
 
     <ImageView
         android:id="@+id/summer"
         android:layout_width="0dp"
         android:layout_height="0dp"
+        android:layout_marginTop="184dp"
         android:contentDescription="@string/todo"
-        app:layout_constraintBottom_toTopOf="@+id/rain"
         app:layout_constraintDimensionRatio="1:1"
-
         app:layout_constraintEnd_toEndOf="@+id/guideline3"
         app:layout_constraintHorizontal_bias="0.0"
 
         app:layout_constraintStart_toStartOf="@+id/guideline2"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.876"
         app:srcCompat="@drawable/summer" />
 
     <ImageView
@@ -40,14 +40,16 @@
         android:layout_width="0dp"
         android:layout_height="0dp"
 
-        android:layout_marginBottom="280dp"
+        android:layout_marginTop="32dp"
+
         android:contentDescription="@string/todo5"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintDimensionRatio="1:1"
         app:layout_constraintEnd_toEndOf="@+id/guideline3"
-
-        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintHorizontal_bias="1.0"
         app:layout_constraintStart_toStartOf="@+id/guideline2"
+        app:layout_constraintTop_toBottomOf="@+id/summer"
+        app:layout_constraintVertical_bias="0.0"
         app:srcCompat="@drawable/rains"
         tools:ignore="ImageContrastCheck" />
 

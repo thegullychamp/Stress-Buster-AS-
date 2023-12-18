@@ -11,6 +11,7 @@
         android:roundIcon="@mipmap/ic_la2"
         android:supportsRtl="true"
         android:theme="@style/Theme.StressBuster"
+        android:screenOrientation="portrait"
         tools:targetApi="31">
 
         <activity
@@ -18,10 +19,12 @@
             android:exported="false">
             <meta-data
                 android:name="android.app.lib_name"
+                android:screenOrientation="portrait"
                 android:value="" />
         </activity>
         <activity
             android:name=".MainActivity4"
+            android:screenOrientation="portrait"
             android:exported="false">
             <meta-data
                 android:name="android.app.lib_name"
@@ -29,6 +32,7 @@
         </activity>
         <activity
             android:name=".MainActivity3"
+            android:screenOrientation="portrait"
             android:exported="false">
             <meta-data
                 android:name="android.app.lib_name"
@@ -36,6 +40,7 @@
         </activity>
         <activity
             android:name=".SplashScreen"
+            android:screenOrientation="portrait"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -49,6 +54,7 @@
         </activity>
         <activity
             android:name=".MainActivity2"
+            android:screenOrientation="portrait"
             android:exported="false">
             <meta-data
                 android:name="android.app.lib_name"
@@ -56,6 +62,7 @@
         </activity>
         <activity
             android:name=".MainActivity"
+            android:screenOrientation="portrait"
             android:exported="true">
             <meta-data
                 android:name="android.app.lib_name"
